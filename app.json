@@ -111,7 +111,7 @@
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "required": True,
+         "required": false,
          "value": "1530396450"
       },
       "ENV": {
