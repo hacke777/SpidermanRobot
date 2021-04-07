@@ -52,10 +52,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-You can find my list of available commands with /help.
-i'm a group manager bot. Maintained by @HEROGAMERS1 ❤
+Hello there, I'm 𖣘 𝑺𝒑𝒊𝒅𝒆𝒓𝒎𝒂𝒏 𖣘
 
+I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
+
+✪ Make sure you Joined My Group and Channel Section Below ⍟
+
+✵ Send Me /help for More Commands 🤪
 """
 
 HELP_STRINGS = """
@@ -76,10 +79,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/4ad1fc720dac4648b11aa.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Supporting him; [Hero](t.me/HEROGAMERS1)"""
+Supporting him: [The Noob](t.me/The_Noob_Hacker)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -197,22 +200,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="👰 Add 𝙇𝙖𝙮𝙡𝙖 to your group",
+                            text="🌟 Add 𝐒𝐩𝐢𝐝𝐞𝐫𝐦𝐚𝐧 to your group 🌟",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="Support Group",
-                             url=f"https://t.me/Girls_and_Boys_Chatting"),
+                             text="Jᴏɪɴ Gʀᴏᴜᴘ",
+                             url=f"https://t.me/Kannada_Film_Request"),
                          InlineKeyboardButton(
-                             text="📘 Logs",
-                             url="https://t.me/LaylaLogs")
+                             text="Jᴏɪɴ Cʜᴀɴɴᴇʟ",
+                             url="https://t.me/Pruthvi_RJ_Movies")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="☑️ Source code",
-                             url="https://github.com/QueenArzoo/LaylaRobot")
+                             text="🧑‍💻 My Creator🧑‍💻",
+                             url="https://t.me/The_Noob_Hacker")
                      ]]))
     else:
         update.effective_message.reply_text(
