@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello there, I'm 𖣘 𝑺𝒑𝒊𝒅𝒆𝒓𝒎𝒂𝒏 𖣘
+Hello there, I'm 𖣘 Khaleeshibot 𖣘
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -64,7 +64,7 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 
-*Main* commands : [𖣘 𝑺𝒑𝒊𝒅𝒆𝒓𝒎𝒂𝒏 𖣘](https://telegra.ph/file/634f4cb8f541ea85f1f1a.png)
+*Main* commands : [𖣘 Khaleeshibot 𖣘](https://telegra.ph/file/94afff715a19cc41324c1.png)
  ⍟ /help: PM's you this message.
  ⍟ /help <module name>: PM's you info about that module.
  ⍟ /donate: information on how to donate!
@@ -79,10 +79,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4ad1fc720dac4648b11aa.png"
+SAITAMA_IMG = "https://telegra.ph/file/94afff715a19cc41324c1.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Supporting him: [The Noob](t.me/The_Noob_Hacker)"""
+Supporting him: [____](https://t.me/The_Noob_Hacker)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -200,17 +200,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🌟 Add 𝐒𝐩𝐢𝐝𝐞𝐫𝐦𝐚𝐧 to your group 🌟",
+                            text="🌟 Add  Khaleesi to your group 🌟",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="Jᴏɪɴ Gʀᴏᴜᴘ",
-                             url=f"https://t.me/Kannada_Film_Request"),
+                             url=f"https://t.me/brtoficcal"),
                          InlineKeyboardButton(
                              text="Jᴏɪɴ Cʜᴀɴɴᴇʟ",
-                             url="https://t.me/Pruthvi_RJ_Movies")
+                             url="https://t.me/brtoficcalchanell")
                      ],
                      [
                          InlineKeyboardButton(
